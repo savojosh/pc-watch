@@ -1,9 +1,15 @@
 # Market prices — Motherboard
 
-Spec: `../design-spec/motherboard.md` · Target: **MSI MAG B850 Tomahawk MAX WiFi**
+Spec: `../design-spec/motherboard.md`
+**Plan A: ASUS ProArt B850-Creator WiFi NEO, acquired only inside the $999.99 bundle.**
+**Plan B: MSI MAG B850 Tomahawk MAX WiFi, $229.99 new.**
 
 **Market health: HEALTHY.** No shortage pressure. No urgency to buy.
-**Budget: $230** (or folded into a Micro Center bundle — see `cpu.md`).
+
+| Board | Standalone price | Role |
+|---|---|---|
+| ASUS ProArt B850-Creator WiFi NEO | ~$291–295 | **Plan A** — never buy standalone; only worth it inside the bundle |
+| MSI MAG B850 Tomahawk MAX WiFi | **$229.99** | **Plan B** — buy new from Newegg if the bundle is gone |
 
 ## Observed prices
 

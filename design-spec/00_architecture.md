@@ -43,19 +43,26 @@ Everything bought for this machine must match this table. No exceptions.
 | Case | **ATX**, 360 mm radiator support | Cases without 360 rad clearance |
 | PSU | **ATX 3.1**, 750 W, fully modular | SFX, non-modular |
 
-## The board: MSI MAG B850 Tomahawk MAX WiFi — $230
+## CPU + board: two plans, same architecture
 
-Chosen over four rivals on one axis: it is the only board in class where **four NVMe drives
-and an add-in card can coexist**. Full reasoning in `motherboard.md`.
+Both plans are AM5 / B850 / DDR5, so **every other part in this build is identical either
+way.** Full detail in `motherboard.md` and `cpu.md`.
 
-- 4 DIMM · 4 M.2 (2× Gen5 CPU-direct, 2× Gen4) · 4 SATA
-- PCIe 5.0 x16 (never lane-shared) + a **PCIe 4.0 x4 full-length slot that is never disabled**
-- 14 × 80 A VRM — ample for a future Zen 6 X3D
-- 5GbE Realtek RTL8126, Wi-Fi 7
+**PLAN A (primary) — the Micro Center bundle, $999.99.** Ryzen 9 **9950X (16C/32T)** + ASUS
+**ProArt B850-Creator WiFi NEO** + 32 GB DDR5-6000 CL36.
+[Product 5007458](https://www.microcenter.com/product/5007458/amd-ryzen-9-9950x,-asus-b850-creator-proart-wifi-am5,-gskill-flare-x5-series-32gb-ddr5-6000-kit,-computer-build-bundle)
+— **in-store only, limit 1 per household**, Westmont IL, ~$66 round trip.
+Sixteen cores for essentially the price of a separately-bought twelve-core build, plus a
+**CPU-attached PCIe 5.0 x8** secondary slot and dual 5GbE.
 
-**Known risk:** the RTL8126 is new silicon with immature Linux support, and there is a live
-kernel 6.17 regression affecting Realtek 2.5GbE throughput. Mitigation: the spare x4 slot
-takes an Intel NIC for ~$30. No board in this class ships an Intel NIC.
+**PLAN B (backup) — if the bundle sells out.** Ryzen 9 **9900X** + **MSI MAG B850 Tomahawk
+MAX WiFi** ($229.99) + 32 GB DDR5-6000 CL30, bought separately and shipped. 12 cores, 4 M.2,
+a Gen4 x4 secondary slot, no trip.
+
+**Known risk on both:** these boards use the Realtek **RTL8126** 5GbE, which has immature
+Linux support, and there is a live kernel 6.17 regression affecting Realtek NIC throughput.
+**No board in this class ships an Intel NIC**, so budget ~$30 for an Intel add-in card
+regardless of plan. On Plan A it goes in a Gen5 x8 slot; on Plan B, a Gen4 x4 slot.
 
 ---
 

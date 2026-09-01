@@ -22,11 +22,37 @@ This rules out several parts previously under consideration:
 | Socket | AM5 |
 | Generation | Zen 5 (Ryzen 9000) preferred; Zen 4 (7000) acceptable |
 | Cores | **12C/24T minimum** |
-| Target part | **Ryzen 9 9900X** (12C/24T, Zen 5) |
-| Fallback | Ryzen 9 7900X (12C/24T, Zen 4) |
-| Stretch | Ryzen 9 9950X (16C/32T) |
+| **PLAN A (primary)** | **Ryzen 9 9950X — 16C/32T, 170 W**, via the Micro Center bundle |
+| **PLAN B (backup)** | **Ryzen 9 9900X — 12C/24T, 120 W**, bought standalone at ≤ $360 |
+| Plan B alternate | Ryzen 9 7900X (12C/24T, Zen 4) at ≤ $300 |
 | Integrated graphics | **Required** — lets the machine boot and work before the GPU arrives |
-| Budget | $275–330 standalone, or inside a Micro Center 3-in-1 bundle |
+| Budget | Inside the $999.99 bundle, or $300–360 standalone |
+
+### Plan A — the bundle, and why it changed the target
+
+[Micro Center product 5007458](https://www.microcenter.com/product/5007458/amd-ryzen-9-9950x,-asus-b850-creator-proart-wifi-am5,-gskill-flare-x5-series-32gb-ddr5-6000-kit,-computer-build-bundle):
+**9950X + ASUS ProArt B850-Creator + 32 GB DDR5-6000 CL36 = $999.99** (reg $1,264.97).
+**In-store only, limit 1 per household.** Westmont IL, ~$66 round trip all-in.
+
+Micro Center offers **no 9900X bundle at all** — their Ryzen 9 tier starts at the 9950X. The
+comparison that decided it:
+
+| | Plan B, bought separately | Plan A bundle |
+|---|---|---|
+| CPU | 9900X ~$360 (12C/24T) | **9950X ~$490 (16C/32T)** |
+| Board | Tomahawk $230 | ProArt $295 |
+| RAM | 32 GB CL30 ~$404 | 32 GB CL36 |
+| **Total** | **~$994** | **$999.99** |
+
+**Six dollars for four more cores**, plus a better board. Even adding the $66 trip it is
+~$72 for a 33% core-count increase on the workload that justifies the whole build.
+
+**The cost of 16 cores: 170 W vs 120 W.** On a machine that runs 11 hours nightly and
+throttles on temperature, that raises the stakes on the 360 mm AIO — it does not change the
+answer, but it makes the cooler non-negotiable.
+
+**Before driving:** phone store #081 and confirm the bundle is in stock. Bundles rotate
+weekly and the website defaults to a different store.
 
 **BIOS setting to remember: enable SVM / AMD-V** for the Windows VM and Android emulators.
 

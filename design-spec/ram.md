@@ -18,7 +18,7 @@ been under consideration. DDR4 does not fit AM5 and never will. Delete it from t
 |---|---|
 | Type | DDR5 UDIMM, non-ECC |
 | Speed | **DDR5-6000** |
-| Timing | **CL30** |
+| Timing | **CL30** target — but the Plan A bundle ships **CL36**, which is accepted |
 | Profile | **EXPO** (AMD's profile; XMP-only kits usually train but EXPO is the safe buy) |
 | Config now | 2 × 32 GB (leaves 2 slots free) |
 | Config target | 64 GB |
@@ -31,6 +31,16 @@ sticks caps you at 64 GB forever without throwing kits away.
 
 It is the AM5 sweet spot — it matches the memory controller's 1:1 FCLK ratio. Faster kits
 cost more and often train down. This is not a place to spend extra.
+
+**On CL36 in the Plan A bundle.** The G.Skill Flare X5 kit in the Micro Center bundle is
+DDR5-6000 **CL36**, not CL30. The looser timing costs a low single-digit percentage in
+latency-sensitive work and essentially nothing in the capacity-bound workloads that dominate
+here. **Accepted deliberately** — it is not worth paying separately for CL30 when the kit
+arrives inside a bundle that is already the best value in the build. Noted so it is a known
+deviation rather than a surprise.
+
+**Micro Center prices this kit at $479.99 standalone**, well above the $404 best-tracked
+price. The bundle is the cheap route to RAM; buying it there alone is not.
 
 ## The 4-DIMM speed caveat
 

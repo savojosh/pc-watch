@@ -23,7 +23,16 @@ Part files exist for: `motherboard`, `cpu`, `ram`, `gpu`, `storage`, `cooling`, 
 
 ## The locked architecture — hard filters
 
-**Socket AM5 · MSI MAG B850 Tomahawk MAX WiFi · DDR5 · Bazzite · 5-year lifecycle.**
+**Socket AM5 · DDR5 · Bazzite · 5-year lifecycle.** Two plans, same architecture:
+
+- **PLAN A (primary):** Micro Center bundle **$999.99** — Ryzen 9 **9950X** + ASUS ProArt
+  B850-Creator + 32 GB DDR5-6000. In-store only, Westmont IL,
+  [product 5007458](https://www.microcenter.com/product/5007458/amd-ryzen-9-9950x,-asus-b850-creator-proart-wifi-am5,-gskill-flare-x5-series-32gb-ddr5-6000-kit,-computer-build-bundle).
+  **May sell out — confirm stock by phone before driving.**
+- **PLAN B (backup):** Ryzen 9 **9900X** + **MSI MAG B850 Tomahawk MAX WiFi** + 32 GB CL30,
+  bought separately and shipped.
+
+Every other part is identical either way.
 
 **GPU vendor is now open.** Bazzite supports AMD and NVIDIA both. AMD is still the pick on
 price and Linux driver quality, not on compatibility — evaluate NVIDIA cards, don't filter
@@ -43,8 +52,13 @@ No 3.5" drive bay or HBA requirement — the NAS is a separate box, built later.
 
 ## Budget
 
-Tower target **$1,000–1,500**, stretch **$1,500–2,500**. Realistic build currently prices at
-**~$1,926** (~$2,170 all in). Running total and cut sequence: `market-prices/00_budget-ledger.md`.
+Tower target **$1,000–1,500**, stretch **$1,500–2,500**. Realistic build now prices at
+**~$2,552 all-in (Plan A)** or **~$2,480 (Plan B)** — both need at least one cut to sit
+inside the stretch range. Deferring the 2 TB SSD and the UPS brings Plan A to **~$2,043**.
+Running total and full cut sequence: `market-prices/00_budget-ledger.md`.
+
+> An earlier figure of ~$2,170 was wrong — it used a bundle price taken from a February
+> article rather than a live listing. The build is **$382 more expensive** than that implied.
 
 Buying incrementally — a single great part deal is in scope even when the whole build isn't.
 
